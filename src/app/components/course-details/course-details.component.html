@@ -1,0 +1,80 @@
+<div class="container py-4">
+  <!-- Course Header -->
+  <div class="row mb-4">
+    <div class="">
+      <h1 class="display-5 fw-bold">{{ course.title }}</h1>
+      <div class="d-flex gap-3 mb-3">
+        <span class="badge bg-primary">{{ course.duration }}</span>
+        <span class="badge bg-success">{{ course.fee }}</span>
+      </div>
+      <p class="lead">{{ course.description }}</p>
+    </div>
+  </div>
+
+  <!-- Syllabus Accordion -->
+  <div class="row mb-4">
+    <div class="col-12">
+      <h3 class="mb-3">Course Syllabus</h3>
+      <div ngbAccordion [closeOthers]="true">
+        <div
+          ngbAccordionItem
+          *ngFor="let item of course.syllabus; let i = index"
+          [id]="'module' + (i + 1)"
+        >
+          <h2 ngbAccordionHeader>
+            <button ngbAccordionButton>
+              Module {{ i + 1 }}: {{ item.module }}
+            </button>
+          </h2>
+          <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+              <ng-template>
+                <ul class="list-group">
+                  <li class="list-group-item" *ngFor="let topic of item.topics">
+                    {{ topic }}
+                  </li>
+                </ul>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="row mb-4">
+    <div class="col-12">
+      <h3 class="mb-3">What Our Students Say</h3>
+      <div class="row">
+        <div
+          class="col-md-4 mb-3"
+          *ngFor="let testimonial of course.testimonials"
+        >
+          <div class="card h-100">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>{{ testimonial.text }}</p>
+                <footer class="blockquote-footer">
+                  {{ testimonial.name }}
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="row">
+    <div class="col-12 text-center py-4 bg-light rounded">
+      <h3>Ready to Start Your IT Career?</h3>
+      <p class="lead">Join our next batch starting soon</p>
+      <button class="btn btn-primary btn-lg me-2">Enroll Now</button>
+      <button class="btn btn-outline-secondary btn-lg">
+        Download Syllabus
+      </button>
+    </div>
+  </div>
+</div>
