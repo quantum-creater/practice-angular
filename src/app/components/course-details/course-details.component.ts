@@ -8,7 +8,7 @@ import {
 
 @Component({
   selector: 'app-course-details',
-  imports: [NgIf, NgFor, NgbAccordionModule, NgbCarouselModule],
+  imports: [NgFor, NgbAccordionModule, NgbCarouselModule],
   templateUrl: './course-details.component.html',
   styleUrl: './course-details.component.css',
 })
@@ -17,7 +17,6 @@ export class CourseDetailsComponent {
   constructor(private courseData: CourseDataService) {
     this.courseData.getCourseData().subscribe((data) => {
       this.course = data;
-      console.log(this.course);
     });
   }
 }
