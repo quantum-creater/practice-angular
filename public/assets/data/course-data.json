@@ -6,110 +6,152 @@
     "duration": "12 Months",
     "fee": "₹25,000",
     "description": "Comprehensive computer applications course covering essential software, programming, and IT skills for professional advancement.",
-    "highlights": [
-      "Industry-relevant curriculum",
-      "Hands-on practical training",
-      "Experienced faculty",
-      "Placement assistance",
-      "Government recognized certification"
-    ],
+
     "syllabus": [
       {
         "module": "Computer Fundamentals",
         "topics": [
-          "Introduction to Computers",
-          "Operating Systems",
-          "Computer Hardware Basics",
-          "Software Installation"
+          "History of Computer",
+          "Basic Knowledge",
+          "Notepad",
+          "WordPad",
+          "MS Paint",
+          "Search"
         ]
       },
       {
-        "module": "Office Automation",
+        "module": "Office Package",
         "topics": [
           "MS Word - Advanced",
           "MS Excel - Formulas & Charts",
-          "MS PowerPoint - Presentations",
-          "MS Access - Database Management"
+          "MS PowerPoint - Presentations"
         ]
       },
       {
-        "module": "Programming",
+        "module": "Internet",
         "topics": [
-          "C Programming",
-          "C++ Object Oriented Programming",
-          "Python Basics",
-          "Java Fundamentals"
+          "How to make Email A/C",
+          "How to send Email",
+          "How to Change Password",
+          "Video Call",
+          "CBSE Results",
+          "BSEB Result",
+          "Apply Bank Form",
+          "Voter ID Card Download",
+          "Software Downloading",
+          "MP3 Downloading",
+          "Video Downloading",
+          "Online Banking",
+          "Online Income / Cast / Residence Certificate",
+          "Online Eduction",
+          "Railway Ticket Booking",
+          "Airline Ticket Booking",
+          "Hotel Booking",
+          "Bus Tiket Booking",
+          "Cinema Ticket Booking",
+          "Online Exam",
+          "Pen Card Status",
+          "Adhar Card Status"
         ]
       },
       {
-        "module": "Web Development",
-        "topics": ["HTML5 & CSS3", "JavaScript", "PHP & MySQL", "WordPress CMS"]
-      },
-      {
-        "module": "Networking & Security",
+        "module": "Tally",
         "topics": [
-          "Computer Networks Basics",
-          "Internet & Email",
-          "Cyber Security Fundamentals",
-          "Data Privacy"
+          "Journal",
+          "Ledger",
+          "History of Tally",
+          "Basic of Tally",
+          "Creation of Ledger",
+          "Accounting Group",
+          "Voucher Entry",
+          "Inventory Stock management",
+          "What is GST",
+          "GST Billing",
+          "Purchase Return",
+          "Sales Return",
+          "Maintain Bill By Bill",
+          "Printing of Vouture Ledger Invoice etc",
+          "F11 Features",
+          "F12 Configuration"
         ]
+      },
+      {
+        "module": "DTP",
+        "topics": ["Corel DRAW", "Photoshop", "Page maker"]
+      },
+      {
+        "module": "HTML",
+        "topics": [
+          "Introduction of HTML",
+          "Heading",
+          "Paragraph",
+          "Form",
+          "Div"
+        ]
+      },
+      {
+        "module": "Extra Knowledge",
+        "topics": ["Control Panel", "Software Installation", "DOS"]
       }
     ]
   },
   {
     "id": "dca",
-    "title": "Diploma in Computer Applications (ADCA)",
+    "title": "Diploma in Computer Applications (DCA)",
     "subtitle": "DCA",
-    "duration": "12 Months",
-    "fee": "₹25,000",
+    "duration": "6 Months",
+    "fee": "₹3,000",
     "description": "Comprehensive computer applications course covering essential software, programming, and IT skills for professional advancement.",
-    "highlights": [
-      "Industry-relevant curriculum",
-      "Hands-on practical training",
-      "Experienced faculty",
-      "Placement assistance",
-      "Government recognized certification"
-    ],
     "syllabus": [
       {
         "module": "Computer Fundamentals",
         "topics": [
-          "Introduction to Computers",
-          "Operating Systems",
-          "Computer Hardware Basics",
-          "Software Installation"
+          "History of Computer",
+          "Basic Knowledge",
+          "Notepad",
+          "WordPad",
+          "MS Paint",
+          "Search"
         ]
       },
       {
-        "module": "Office Automation",
+        "module": "Office Package",
         "topics": [
           "MS Word - Advanced",
           "MS Excel - Formulas & Charts",
-          "MS PowerPoint - Presentations",
-          "MS Access - Database Management"
+          "MS PowerPoint - Presentations"
         ]
       },
       {
-        "module": "Programming",
+        "module": "Internet",
         "topics": [
-          "C Programming",
-          "C++ Object Oriented Programming",
-          "Python Basics",
-          "Java Fundamentals"
+          "How to make Email A/C",
+          "How to send Email",
+          "How to Change Password",
+          "Video Call",
+          "CBSE Results",
+          "BSEB Result",
+          "Apply Bank Form",
+          "Voter ID Card Download",
+          "Software Downloading",
+          "MP3 Downloading",
+          "Video Downloading",
+          "Online Banking",
+          "Online Income / Cast / Residence Certificate",
+          "Online Eduction",
+          "Railway Ticket Booking",
+          "Airline Ticket Booking",
+          "Hotel Booking",
+          "Bus Tiket Booking",
+          "Cinema Ticket Booking",
+          "Online Exam",
+          "Pen Card Status",
+          "Adhar Card Status"
         ]
       },
       {
-        "module": "Web Development",
-        "topics": ["HTML5 & CSS3", "JavaScript", "PHP & MySQL", "WordPress CMS"]
-      },
-      {
-        "module": "Networking & Security",
-        "topics": [
-          "Computer Networks Basics",
-          "Internet & Email",
-          "Cyber Security Fundamentals",
-          "Data Privacy"
-        ]
+        "module": "Extra Knowledge",
+        "topics": ["Control Panel", "Software Installation", "DOS"]
       }
     ]
   }
