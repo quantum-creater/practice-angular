@@ -80,6 +80,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
+            "routes": [
+              "/",
+              "/course"
+            ],
+            "excludedRoutes": [
+              "/course"
+            ],
             "polyfills": [
               "zone.js",
               "zone.js/testing",

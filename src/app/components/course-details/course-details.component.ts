@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CourseDataService } from '../../services/course-data.service';
-import { CommonModule, NgFor, NgIf } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import {
   NgbAccordionModule,
   NgbCarouselModule,
