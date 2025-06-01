@@ -2,23 +2,23 @@
   <!-- Course Header -->
   <div class="row mb-4">
     <div class="">
-      <h1 class="display-5 fw-bold">{{ course.title }}</h1>
+      <h1 class="display-5 fw-bold">{{ course?.title }}</h1>
       <div class="d-flex gap-3 mb-3">
-        <span class="badge bg-primary">{{ course.duration }}</span>
-        <span class="badge bg-success">{{ course.fee }}</span>
+        <span class="badge bg-primary">{{ course?.duration }}</span>
+        <span class="badge bg-success">{{ course?.fee }}</span>
       </div>
-      <p class="lead">{{ course.description }}</p>
+      <p class="lead">{{ course?.description }}</p>
     </div>
   </div>
 
   <!-- Syllabus Accordion -->
   <div class="row mb-4">
     <div class="col-12">
-      <h3 class="mb-3">{{ course.subtitle }} Course Syllabus</h3>
+      <h3 class="mb-3">{{ course?.subtitle }} Course Syllabus</h3>
       <div ngbAccordion [closeOthers]="true">
         <div
           ngbAccordionItem
-          *ngFor="let item of course.syllabus; let i = index"
+          *ngFor="let item of course?.syllabus; let i = index"
           [id]="'module' + (i + 1)"
         >
           <h2 ngbAccordionHeader>
@@ -49,14 +49,14 @@
       <div class="row">
         <div
           class="col-md-4 mb-3"
-          *ngFor="let testimonial of course.testimonials"
+          *ngFor="let testimonial of course?.testimonials"
         >
           <div class="card h-100">
             <div class="card-body">
               <blockquote class="blockquote mb-0">
-                <p>{{ testimonial.text }}</p>
+                <p>{{ testimonial?.text }}</p>
                 <footer class="blockquote-footer">
-                  {{ testimonial.name }}
+                  {{ testimonial?.name }}
                 </footer>
               </blockquote>
             </div>
